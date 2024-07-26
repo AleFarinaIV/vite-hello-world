@@ -5,25 +5,17 @@ export default {
 </script>
 
 <template>
-    <main>
-        <div class="container">
-            <p>La mia prima app con Vite!</p>
-        </div>
-    </main>
+    <div class="container">
+        <p>La mia prima app con Vite!</p>
+    </div>
 </template>
 
 <style scoped>
 
-    main {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #000000c0;
-    }
     .container {
         display: flex;
         justify-content: center;
+        margin-top: 20px;
     }
 
     p {
