@@ -1,5 +1,5 @@
-<script setup>
-import AppTitle from "./components/AppTitle"
+<script>
+import AppTitle from "./components/AppTitle.vue"
 export default {
   components: {
     AppTitle
@@ -8,9 +8,10 @@ export default {
 </script>
 
 <template>
-
+  <!-- Dobbiamo richiamare AppTitle -->
+  <AppTitle />
 </template>
 
-<style scoped>
+<style>
 
 </style>
